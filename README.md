@@ -1,24 +1,23 @@
-# Excel Bike Sales Dashboard
+# Bike Sales Dashboard — Excel
 
-## Overview
-End-to-end Excel project analyzing 1,000+ customer records to understand
-bike purchase behaviour across demographics, income levels, and commute patterns.
+Interactive Excel dashboard analysing customer purchasing behaviour for a
+bike retail dataset, with dynamic filtering by demographics and region.
+
+## Tools
+- Microsoft Excel (Pivot Tables · Charts · Slicers · Conditional Formatting)
+
+## What I Did
+- Cleaned raw data: removed duplicates, standardised marital status, gender,
+  and age bracket columns
+- Built pivot tables aggregating sales by income, commute distance, and region
+- Created bar and clustered column charts for key comparisons
+- Assembled a dashboard with slicers for Gender, Marital Status, and Region
 
 ## Dashboard Preview
 ![Dashboard](dashboard-preview.png)
 
-## Project Steps
-1. **Data Cleaning** — standardized marital status (M/S → Married/Single),
-   gender (M/F → Male/Female), removed duplicates
-2. **Feature Engineering** — created Age Bracket column using nested IF formulas
-   (Young / Middle Aged / Old Aged)
-3. **Pivot Tables** — income vs bike purchase, commute distance, age bracket analysis
-4. **Interactive Dashboard** — slicers for marital status, region, and education level
+## Key Skills
+Data cleaning · Pivot Tables · Pivot Charts · Slicers · Dashboard design
 
-## Key Findings
-- Customers with higher average income are more likely to purchase bikes
-- Middle-aged segment (31–55) accounts for the largest share of purchases
-- Short commute distances (0–1 miles) drive the highest purchase rates
-
-## Tools
-Microsoft Excel — Pivot Tables, IF formulas, Slicers, Charts
+## Dataset
+[Alex the Analyst Bike Sales Dataset](https://github.com/AlexTheAnalyst/Excel-Tutorial)
